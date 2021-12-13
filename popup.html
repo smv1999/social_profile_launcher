@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Profile Launcher</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      type="text/css"
+    />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <style>
+      html,
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        min-height: 180px;
+        width: 400px;
+        margin: 0;
+        padding: 0;
+      }
+      h3 {
+        font-family: "Menlo", monospace;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f5876;
+      }
+      a:link,
+      a:visited {
+        color: black;
+        outline: 0;
+        text-decoration: none;
+      }
+      img {
+        width: 30px;
+      }
+      .main-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+      .main-content {
+        padding: 0 22px;
+      }
+      .main-icons {
+        border-top: 0.5px solid #dadada;
+        height: 50px;
+        width: 100%;
+      }
+      .logo {
+        padding: 16px;
+      }
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+      .version {
+        color: #444;
+        font-size: 14px;
+      }
+      .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 22px;
+        width: 100%;
+      }
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+      }
+      .flex:hover {
+        opacity: 0.4;
+      }
+      .flex .fa {
+        font-size: 40px;
+        color: #2f5876;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-header">
+      <h3 class="logo">
+        <img src="images/icon_orig.png" alt="Launcher Icon" class="logo-icon" />
+        Social Profile Launcher
+        <span class="version">(1.0.0)</span>
+      </h3>
+    </div>
+    <div class="main-content">
+      <p>Easily Access Social Profiles of Vaidhyanathan S M</p>
+    </div>
+    <div class="main-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a href="https://vaidhyanathansm.netlify.app/" target="_blank">
+            <i class="fa fa-globe"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a
+            href="https://www.youtube.com/channel/UCqwT9BQSrMA3ZHcyAHtzqwA"
+            target="_blank"
+          >
+            <i class="fa fa-youtube"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://twitter.com/itssmv1999" target="_blank">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.facebook.com/smv1999/" target="_blank">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://github.com/smv1999" target="_blank">
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
